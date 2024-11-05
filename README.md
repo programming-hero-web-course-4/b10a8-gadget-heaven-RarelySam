@@ -1,8 +1,19 @@
-# React + Vite
+## https://beneficial-song.surge.sh
+[Click here to download requirement document](https://raw.githubusercontent.com/ProgrammingHero1/B10-A8-gadget-heaven/7be8630e2405d4bc6fd18b37812aebdb2b916132/Batch-10_Assignment-08-.pdf)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Fundamental concepts of react used in the project
+Not many have been used because useContext() was way too confusing.
 
-Currently, two official plugins are available:
+However, I used concepts like:
+1. Components
+2. Hooks
+3. Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I used local storage for data management.
+
+# 5 features of my project
+1. Interactive buttons
+2. Gorgeous UI
+3. Ability to add products to wishlist/cart
+4. Ability to buy products
+5. Responsive UI

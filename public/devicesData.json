@@ -1,0 +1,182 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "iPhone 15 Pro Max",
+      "product_image": "https://i.ibb.co.com/7jFF1CK/iphone.jpg",
+      "category": "Iphone",
+      "price": 1299,
+      "description": "The ultimate smartphone experience.",
+      "specifications": [
+        "A17 Bionic chip",
+        "Dynamic Island",
+        "ProMotion display"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S24 Ultra",
+      "product_image": "https://i.ibb.co.com/j8Dr9Qt/s24.jpg",
+      "category": "Phones",
+      "price": 1199,
+      "description": "The future of Android.",
+      "specifications": [
+        "Snapdragon 8 Gen 3",
+        "200MP camera",
+        "Adaptive refresh rate display"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 3,
+      "product_title": "MacBook Pro 14",
+      "product_image": "https://i.ibb.co.com/fxt0bjg/macbook.jpg",
+      "category": "Macbook",
+      "price": 1999,
+      "description": "The ultimate laptop for professionals.",
+      "specifications": [
+        "M2 Pro chip",
+        "Liquid Retina XDR display",
+        "MagSafe charging"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 4,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/hy8kMsh/dell.jpg",
+      "category": "Laptops",
+      "price": 1500,
+      "description": "Premium ultrabook.",
+      "specifications": [
+        "11th Gen Intel Core processor",
+        "OLED display",
+        "Thunderbolt 4 ports"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 5,
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/yk9JY4N/apple-watch.jpg",
+      "category": "Smart Watches",
+      "price": 400,
+      "description": "Advanced smartwatch.",
+      "specifications": [
+        "S9 chip",
+        "Always-On display",
+        "Advanced health tracking"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 6,
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://i.ibb.co.com/6RCfvd1/watch.jpg",
+      "category": "Smart Watches",
+      "price": 300,
+      "description": "Stylish smartwatch.",
+      "specifications": [
+        "Exynos W930 processor",
+        "Super AMOLED display",
+        "Advanced fitness tracking"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 7,
+      "product_title": "AirPods Pro (2nd gen)",
+      "product_image": "https://i.ibb.co.com/FhmYXcq/airpods.jpg",
+      "category": "Accessories",
+      "price": 250,
+      "description": "Premium wireless earbuds.",
+      "specifications": [
+        "Active Noise Cancellation",
+        "Adaptive EQ",
+        "MagSafe charging"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 8,
+      "product_title": "Apple Watch Band",
+      "product_image": "https://i.ibb.co.com/dcwswyy/bands.jpg",
+      "category": "Accessories",
+      "price": 50,
+      "description": "Comfortable and durable.",
+      "specifications": [
+        "Silicone material",
+        "Multiple color options",
+        "Easy to install"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 9,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.ibb.co.com/Y88h5MJ/i-Phone-14-Pro-Max-3749790161.jpg",
+      "category": "Iphone",
+      "price": 1099,
+      "description": "Powerful smartphone.",
+      "specifications": [
+        "A16 Bionic chip",
+        "Dynamic Island",
+        "ProMotion display"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 10,
+      "product_title": "MacBook Air 15",
+      "product_image": "https://i.ibb.co.com/SVhs4ph/macbook-air.jpg",
+      "category": "Macbook",
+      "price": 1299,
+      "description": "Sleek and portable.",
+      "specifications": [
+        "M2 chip",
+        "Liquid Retina display",
+        "MagSafe charging"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 11,
+      "product_title": "iPad Pro 12.9-inch",
+      "product_image": "https://i.ibb.co.com/QJ6PtLS/ipad.png",
+      "category": "Laptops",
+      "price": 1099,
+      "description": "Powerful tablet.",
+      "specifications": [
+        "M2 chip",
+        "Liquid Retina XDR display",
+        "Apple Pencil support"
+      ],
+      "availability": true,
+      "rating": 5
+    },
+    {
+      "product_id": 12,
+      "product_title": "Samsung Galaxy Z Fold 5",
+      "product_image": "https://i.ibb.co.com/jfhVGHR/fold.jpg",
+      "category": "Phones",
+      "price": 1800,
+      "description": "Foldable smartphone.",
+      "specifications": [
+        "Snapdragon 8 Gen 2",
+        "Dynamic AMOLED 2X display",
+        "S Pen support"
+      ],
+      "availability": true,
+      "rating": 5
+    }
+  ]
