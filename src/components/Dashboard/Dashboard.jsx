@@ -136,15 +136,18 @@ const Dashboard = () => {
       const cartItemsIds = toAdd.map((item) => item.product_id);
       localStorage.setItem("cart", JSON.stringify(cartItemsIds));
       document.getElementById("cart-badge").innerText = toAdd.length;
-      toast('Item has been added to cart!')
+      toast("Item has been added to cart!");
     }
   }
 
-  function purchase(){
-    document.getElementById('total-label').innerText = `${getTotalPrice().toLocaleString()}`
-    document.getElementById('congratulate-modal').showModal()
-    setCartItems([])
-    localStorage.setItem('cart', '[]')
+  function purchase() {
+    document.getElementById(
+      "total-label"
+    ).innerText = `${getTotalPrice().toLocaleString()}`;
+    document.getElementById("cart-badge").innerText = "0";
+    document.getElementById("congratulate-modal").showModal();
+    setCartItems([]);
+    localStorage.setItem("cart", "[]");
   }
 
   return (
@@ -183,7 +186,12 @@ const Dashboard = () => {
             <button className="btn inline" onClick={sortItems}>
               Sort
             </button>
-            <button className={`btn inline bg-purple-400 hover:bg-purple-500 text-white font-bold ${cartItems.length > 0 ? '' : 'btn-disabled'}`} onClick={purchase}>
+            <button
+              className={`btn inline bg-purple-400 hover:bg-purple-500 text-white font-bold ${
+                cartItems.length > 0 ? "" : "btn-disabled"
+              }`}
+              onClick={purchase}
+            >
               Purchase
             </button>
           </div>
