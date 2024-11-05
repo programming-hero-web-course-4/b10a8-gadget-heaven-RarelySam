@@ -144,9 +144,7 @@ const Dashboard = () => {
     document.getElementById(
       "total-label"
     ).innerText = `${getTotalPrice().toLocaleString()}`;
-    setTimeout(() => {
-      document.getElementById("cart-badge").innerText = "0";
-    }, 500);
+    document.getElementById("cart-badge").innerText = "0";
     document.getElementById("congratulate-modal").showModal();
     setCartItems([]);
     localStorage.setItem("cart", "[]");
